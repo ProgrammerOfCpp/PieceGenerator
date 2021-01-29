@@ -1,1 +1,1 @@
-web: gunicorn main.py & python server_pinger.py
+web: gunicorn main:app & python server_pinger.py
