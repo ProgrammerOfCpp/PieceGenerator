@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Roboto-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Roboto-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Roboto-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+.headerWrapper{
+    width: 100%;
+    height: 70px;
+    border: solid 1px #808080;
+    background: #2e2e2e;
+}
+.mainpageButton {
+  width: 140px;
+  height: 45px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+.generatePDFButton {
+  width: 170px;
+  height: 45px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+.contactsButton {
+  width: 120px;
+  height: 45px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+gradientRectangle1 {
+  width: 640px;
+  height: 910px;
+  background: linear-gradient(225deg, #464646, #616161, #F6F6F6, #CCCCCC, #FFFFFF);
+}
+.topMenuContainer{
+    margin-left: 260px;
+    height: 70px;
+    align-content: flex-start;
+    display: flex;
+}

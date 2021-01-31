@@ -16,3 +16,6 @@ def route_ping():
 
 if 'DEBUG' in os.environ:
     app.run()
+
+
+
